@@ -84,10 +84,10 @@ author:
   avatar           : "profile.jpg"
   bio              : "Data Science Enthusiast"
   location         : "Kathmandu University"
-  employer         :
+  employer         : "Kathmandu University School of Law"
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : rishavdhungel1@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         :"https://www.linkedin.com/in/rishav-dhungel/"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          :"https://www.youtube.com/channel/UCax6sEhK0iHydrwvfWm_Dlg"
   wikipedia        :
 
 
