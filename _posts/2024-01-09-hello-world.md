@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-date: 2012-08-14
+date: 2024-01-09
 permalink: /posts/2024/01/hello-world/
 tags:
   - cool posts
