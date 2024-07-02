@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Dhungel's Minimalistic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 3s ease;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Lobster', cursive;
+            margin: 0;
+            font-size: 3rem;
+        }
+        p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+    <script>
+        const calmColors = [
+            '#F0F8FF', '#E6E6FA', '#F5F5DC', '#DCDCDC', '#E0FFFF', '#F5FFFA', '#FAFAD2', '#B0E0E6', 
+            '#AFEEEE', '#98FB98', '#FFDAB9', '#FFE4B5', '#ADD8E6', '#F0FFF0', '#FFFACD', '#D8BFD8', 
+            '#D3D3D3', '#87CEFA', '#87CEEB', '#98FB98', '#F0E68C', '#E0FFFF', '#FAFAD2', '#D3D3D3', 
+            '#FFFACD', '#B0E0E6', '#F5FFFA', '#AFEEEE', '#DCDCDC', '#FFDAB9', '#E6E6FA', '#D8BFD8', 
+            '#87CEFA', '#ADD8E6', '#F0FFF0', '#F5F5DC', '#98FB98', '#F0E68C', '#E0FFFF', '#FAFAD2', 
+            '#D3D3D3', '#FFFACD', '#B0E0E6', '#F5FFFA', '#AFEEEE', '#DCDCDC', '#FFDAB9', '#E6E6FA', 
+            '#D8BFD8', '#87CEFA', '#ADD8E6', '#F0FFF0', '#F5F5DC', '#98FB98', '#F0E68C', '#E0FFFF', 
+            '#FAFAD2', '#D3D3D3', '#FFFACD', '#B0E0E6', '#F5FFFA', '#AFEEEE', '#DCDCDC', '#FFDAB9', 
+            '#E6E6FA', '#D8BFD8', '#87CEFA', '#ADD8E6', '#F0FFF0', '#F5F5DC', '#98FB98', '#F0E68C', 
+            '#E0FFFF', '#FAFAD2', '#D3D3D3', '#FFFACD', '#B0E0E6', '#F5FFFA', '#AFEEEE', '#DCDCDC', 
+            '#FFDAB9', '#E6E6FA', '#D8BFD8', '#87CEFA', '#ADD8E6', '#F0FFF0', '#F5F5DC', '#98FB98', 
+            '#F0E68C', '#E0FFFF', '#FAFAD2', '#D3D3D3', '#FFFACD', '#B0E0E6', '#F5FFFA', '#AFEEEE', 
+            '#DCDCDC', '#FFDAB9'
+        ];
+
+        function getRandomCalmColor() {
+            return calmColors[Math.floor(Math.random() * calmColors.length)];
+        }
+
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = getRandomCalmColor();
+        }
+
+        setInterval(changeBackgroundColor, 3000); // Change color every 3 seconds
+        changeBackgroundColor(); // Initial color change
+    </script>
+</body>
+</html>
