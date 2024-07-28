@@ -12,7 +12,7 @@ title                    : "Rishav Dhungel"
 title_separator          : "-"
 name                     : &name "Rishav Dhungel"
 description              : &description "Figuring Out"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rishavdhungel.com.np # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -27,7 +27,7 @@ author:
   bio              : "Lifelong Student"
   location         : "Earth"
   employer         : "Kathmandu University"
-  uri              : # URL
+  uri              : "rishavdhungel.com.np"
   email            : "rishavdhungel1@gmail.com" 
 
   # Academic websites
