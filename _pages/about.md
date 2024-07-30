@@ -11,7 +11,7 @@ redirect_from:
 Hello there! I'm Rishav Dhungel, and I'm thrilled to welcome you to my corner of the internet. This website is where I share my thoughts, projects, and everything in between. 
 
 ## Education
-**Bachelor of Business Information System (BBIS)**
+**Bachelor of Business Information System (BBIS)**<br/>
 Kathmandu University, Dhulikhel, Nepal  
 *Graduated: December 2022*
 
